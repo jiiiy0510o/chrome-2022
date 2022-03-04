@@ -1,9 +1,21 @@
+@import url(container.css);
+
 * {
   margin: 0;
   padding: 0;
 }
+ul,
+li,
+ol {
+  list-style-type: none;
+}
 body {
+  width: 100vw;
+  height: 100vh;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 img {
   position: absolute;

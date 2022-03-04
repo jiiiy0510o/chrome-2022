@@ -10,23 +10,32 @@
 </head>
 
 <body>
-    <form id="login-form" class="hidden">
-        <input required maxlength="15" type="text" placeholder="what is your name?">
-        <input type="submit" value="Log In">
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="to-do-form">
-        <input type="text" placeholder="Write a To Do and Press Enter">
-    </form>
-    <ul id="to-do-list"></ul>
-    <h2 class="clock">00:00:00</h2>
-    <div id="random">
-        <span></span>
-        <span></span>
-    </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
+    <div class="container">
+        <h1 class="clock">00:00:00</h1>
+        <div class="login-form-center">
+            <form id="login-form" class="hidden">
+                <input required maxlength="15" type="text" placeholder="이름이 뭐에요🥰">
+                <input type="submit" value="Log In">
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+            <div id="random">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="weather-to-do">
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="to-do">
+                <form id="to-do-form">
+                    <input type="text" placeholder="오늘의 할 일(❁´◡`❁)">
+                </form>
+                <ul id="to-do-list"></ul>
+            </div>
+            <div></div>
+        </div>
     </div>
     <script src="./js/greeting.js"></script>
     <script src="./js/clock.js"></script>
@@ -34,7 +43,6 @@
     <script src="./js/background.js"></script>
     <script src="./js/to-do.js"></script>
     <script src="./js/weather.js"></script>
-
 </body>
 
 </html>

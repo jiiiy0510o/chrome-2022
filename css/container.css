@@ -1,0 +1,87 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 95vw;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 100px;
+}
+.clock {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+.login-form-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-center input {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  margin-top: 300px;
+  outline: none;
+}
+.login-form-center input::placeholder,
+.login-form-center input {
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+}
+#greeting {
+  padding: 8px;
+  text-align: center;
+  width: 320px;
+  border-bottom: 3px double white;
+  padding-top: 300px;
+}
+#random {
+  padding-top: 300px;
+}
+#random span {
+  text-align: center;
+  margin: 4px auto;
+  display: block;
+}
+.weather-to-do {
+  margin-right: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+#weather {
+  margin-top: 60px;
+  text-align: center;
+}
+#weather span {
+  display: block;
+  margin: 5px 0;
+}
+.to-do {
+  padding-bottom: 120px;
+}
+.to-do input {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  width: 230px;
+  border-bottom: 1px solid white;
+  padding: 4px;
+}
+.to-do input::placeholder {
+  color: white;
+  text-align: center;
+}
+#to-do-list li {
+  margin: 12px auto;
+  font-size: 14px;
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
