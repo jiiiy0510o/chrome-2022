@@ -16,6 +16,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-size: 16px;
 }
 img {
   position: absolute;
@@ -26,6 +29,11 @@ img {
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 .hidden {
   display: none;
